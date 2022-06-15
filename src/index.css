@@ -1,0 +1,35 @@
+.homeDiv {
+  width: 350px;
+  margin: 100px auto;
+  background-color: rgb(117, 117, 193);
+
+  padding: 20px;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  height: 40px;
+}
+
+.extraStyle {
+  border-bottom: 3px solid red;
+
+}
+
+.customTab>div {
+  margin-top: 40px;
+  color: #fff;
+}
